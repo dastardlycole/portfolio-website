@@ -25,7 +25,6 @@ export const metadata: Metadata = {
     title: "Ifemide Cole — Software Engineer",
     description:
       "Portfolio of Ifemide Cole, a software engineer building clean, performant, and user-centered applications.",
-    images: ["/profile.jpg"],
   },
 }
 
