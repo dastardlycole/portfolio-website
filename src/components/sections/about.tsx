@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
+import Image from "next/image"
 
 const experience = [
   { company: "Runchow", role: "Software Engineer", period: "Sep 2025 – Present" },
@@ -28,6 +29,15 @@ export function About() {
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="space-y-5 text-muted-foreground leading-relaxed">
+            <div className="w-24 h-24 rounded-2xl overflow-hidden border border-border mb-6">
+              <Image
+                src="/profile.png"
+                alt="Ifemide Cole"
+                width={96}
+                height={96}
+                className="w-full h-full object-cover"
+              />
+            </div>
             <p>
               I&apos;m a software engineer with a First Class Honours degree in Computer Science from the
               University of the West of England. I co-founded a software startup, Runchow, where I lead
