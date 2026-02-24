@@ -31,7 +31,7 @@ export function About() {
           <div className="space-y-5 text-muted-foreground leading-relaxed">
             <div className="w-24 h-24 rounded-2xl overflow-hidden border border-border mb-6">
               <Image
-                src="/profile.png"
+                src="/profile.jpg"
                 alt="Ifemide Cole"
                 width={96}
                 height={96}
